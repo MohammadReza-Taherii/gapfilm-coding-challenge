@@ -1,5 +1,33 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Project Desciption
+
+فایل json.collection_postman.Sample را در پست من ایمپورتکنید.
+
+از متد FirstPage برایپیادهسازی صفحه ی index استفاده کنید.
+
+• لیست اول خروجیبا 0 = type براینمایش محتوایاصلیدر باالیصفحه
+
+• لیستدوم خروجیبا 1 = type براینمایش چهار محتوایمیانی
+
+• لیستسوم خروجیبا 2 = type براینمایشآیتم هایپایینصفحه
+
+از متد GetContentListبرای پیاده سازی Pagination لیست پایین صفحه می توانید استفاده کنید )اختیاری(
+
+لطفا پروژه را با Vue پیادهسازی کنید
+
+برایپیاده سازی حداکثر 8ساعت زمان در نظر بگیرید
+
+چنانچه در زمان مقرر صفحه ی index به پایانرسید کار بر رویصفحه ی single را شروع کنید
+
+• از متد GetContentبرای پیاده سازی صفحه ی سینگل استفاده کنید.
+
+پی نوشت :
+
+فونت هدر
+
+https://fonts.google.com/specimen/Righteous?preview.text=CELETBRITES&preview.text_type=custom
+
 ## Getting Started
 
 First, run the development server:
@@ -17,22 +45,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Project Desciption
-
-فایل json.collection_postman.Sample را در پست من ایمپورتکنید.
-از متد FirstPage برایپیادهسازی صفحه ی index استفاده کنید.
-• لیست اول خروجیبا 0 = type براینمایش محتوایاصلیدر باالیصفحه
-• لیستدوم خروجیبا 1 = type براینمایش چهار محتوایمیانی
-• لیستسوم خروجیبا 2 = type براینمایشآیتم هایپایینصفحه
-از متد GetContentListبرای پیاده سازی Pagination لیست پایین صفحه می توانید استفاده کنید )اختیاری(
-لطفا پروژه را با Vue پیادهسازی کنید
-برایپیاده سازی حداکثر 8ساعت زمان در نظر بگیرید
-چنانچه در زمان مقرر صفحه ی index به پایانرسید کار بر رویصفحه ی single را شروع کنید
-• از متد GetContentبرای پیاده سازی صفحه ی سینگل استفاده کنید.
-پی نوشت :
-فونت هدر
-https://fonts.google.com/specimen/Righteous?preview.text=CELETBRITES&preview.text_type=custom
 
 ## Learn More
 
