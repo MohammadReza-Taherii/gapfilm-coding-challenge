@@ -1,11 +1,11 @@
 import * as Service from "../services/serviceConfig";
 import useSWR from "swr";
-import axios from "axios";
 
 const fetcher = (url) => Service.get(url, (data) => data.result[0].list[0]);
 
 const FirstList = () => {
-  const { data, error } = useSWR("FirstPage?type=0", fetcher);
+  const typeId = 0;
+  const { data, error } = useSWR(`FirstPage?type=${typeId}`, fetcher);
 
   if (error) {
     return <p>{error.message}</p>;
