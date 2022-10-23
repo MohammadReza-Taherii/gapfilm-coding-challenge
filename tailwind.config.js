@@ -12,6 +12,12 @@ module.exports = {
         righteous: ["Righteous", ...defaultTheme.fontFamily.sans],
       },
     },
+    colors: {
+      white: "#fff",
+      dark: "#333",
+      black: "#171717",
+      red: "#e41f43",
+    },
   },
   variants: {
     extend: {},
