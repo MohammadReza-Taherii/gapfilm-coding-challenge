@@ -4,7 +4,7 @@ import MainPage from "../components/mainPage";
 
 const HomePage = () => {
   return (
-    <div className="font-Righteous font-righteous">
+    <div className="font-Righteous min-h-screen flex flex-col">
       <Header />
       <MainPage />
       <Footer />
